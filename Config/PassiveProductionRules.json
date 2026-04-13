@@ -509,7 +509,7 @@
             ]
         },
         {
-            "dinoType": "/ITAC Bastion Beetle/Content/BB Larvae/ BB_ Larvae_Character _ Bp _Bp_C",
+            "dinoType": "/Game/Mods/ITACBastionBeetle/BBLarvae/BB_Larvae_Character_BP.BB_Larvae_Character_BP_C",
             "chanceToProduce": 1,
             "produces": [
                 {
