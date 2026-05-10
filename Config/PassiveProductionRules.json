@@ -603,6 +603,84 @@
                     ]
                 }
             ]
+        },
+        {
+            "dinoType": "/Game/PrimalEarth/Dinos/BoaFrill/BoaFrill_Character_BP.BoaFrill_Character_BP",
+            "chanceToProduce": 1,
+            "produces": [
+                {
+                    "intervalSeconds": 10000,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Boa.PrimalItemResource_ApexDrop_Boa",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dinoType": "/Game/PrimalEarth/Dinos/Beaver/Beaver_Character_BP.Beaver_Character_BP",
+            "chanceToProduce": 1,
+            "produces": [
+                {
+                    "intervalSeconds": 240,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                },
+                {
+                    "intervalSeconds": 1000,
+                    "itemSelectMode": 1,
+                    "items": [
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        },
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ChitinPaste.PrimalItemResource_ChitinPaste",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
