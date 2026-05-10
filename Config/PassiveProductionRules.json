@@ -37,7 +37,7 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 60,
+                    "intervalSeconds": 120,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -55,7 +55,7 @@
                     ]
                 },
                 {
-                    "intervalSeconds": 1800,
+                    "intervalSeconds": 900,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -121,7 +121,7 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 240,
+                    "intervalSeconds": 1200,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -169,7 +169,7 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 240,
+                    "intervalSeconds": 7200,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -187,7 +187,7 @@
                     ]
                 },
                 {
-                    "intervalSeconds": 14400,
+                    "intervalSeconds": 120000,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -381,7 +381,7 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 300,
+                    "intervalSeconds": 900,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -405,7 +405,7 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 3600,
+                    "intervalSeconds": 6000,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -430,13 +430,13 @@
             "produces": [
                 {
                     "intervalSeconds": 240,
-                    "itemSelectMode": 1,
+                    "itemSelectMode": 0,
                     "items": [
                         {
                             "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Metal.PrimalItemResource_Metal",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
-                            "quantityPerDino": 1,
+                            "quantityPerDino": 2,
                             "alternateSelectMode": 0,
                             "alternateItemsChance": 0.5,
                             "alternateItems": [],
@@ -445,7 +445,37 @@
                             "consumesItems": []
                         },
                         {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Obsidian.PrimalItemResource_Obsidian",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                },
+                {
+                    "intervalSeconds": 1000,
+                    "itemSelectMode": 1,
+                    "items": [
+                        {
                             "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Flint.PrimalItemResource_Flint",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        },
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Keratin.PrimalItemResource_Keratin",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
@@ -465,7 +495,7 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 7200,
+                    "intervalSeconds": 84000,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -536,6 +566,30 @@
                     "items": [
                         {
                             "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BugRepellant.PrimalItemConsumable_BugRepellant",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "dinoType": "/Game/PrimalEarth/Dinos/Megalania/Megalania_Character_BP.Megalania_Character_BP",
+            "chanceToProduce": 1,
+            "produces": [
+                {
+                    "intervalSeconds": 840000,
+                    "itemSelectMode": 0,
+                    "items": [
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalania.PrimalItemResource_ApexDrop_Megalania",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
