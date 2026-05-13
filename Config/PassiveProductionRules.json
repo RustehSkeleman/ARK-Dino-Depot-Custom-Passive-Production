@@ -121,7 +121,7 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 1200,
+                    "intervalSeconds": 3600,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -145,7 +145,7 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 1200,
+                    "intervalSeconds": 3600,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -169,7 +169,7 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 7200,
+                    "intervalSeconds": 3600,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -187,7 +187,7 @@
                     ]
                 },
                 {
-                    "intervalSeconds": 120000,
+                    "intervalSeconds": 172800,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -211,8 +211,8 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 240,
-                    "itemSelectMode": 0,
+                    "intervalSeconds": 7200,
+                    "itemSelectMode": 1,
                     "items": [
                         {
                             "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareFlower.PrimalItemResource_RareFlower",
@@ -295,7 +295,7 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 900,
+                    "intervalSeconds": 3600,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -338,7 +338,7 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 900,
+                    "intervalSeconds": 3600,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -429,7 +429,7 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 300,
+                    "intervalSeconds": 900,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -459,7 +459,7 @@
                     ]
                 },
                 {
-                    "intervalSeconds": 1000,
+                    "intervalSeconds": 3600,
                     "itemSelectMode": 1,
                     "items": [
                         {
@@ -495,7 +495,7 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 84000,
+                    "intervalSeconds": 108000,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -519,7 +519,7 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 600,
+                    "intervalSeconds": 1800,
                     "itemSelectMode": 0,
                     "items": [
                         {
