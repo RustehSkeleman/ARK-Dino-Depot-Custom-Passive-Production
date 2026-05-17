@@ -429,7 +429,7 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 900,
+                    "intervalSeconds": 1800,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -459,7 +459,7 @@
                     ]
                 },
                 {
-                    "intervalSeconds": 3600,
+                    "intervalSeconds": 7200,
                     "itemSelectMode": 1,
                     "items": [
                         {
@@ -585,7 +585,7 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 840000,
+                    "intervalSeconds": 172800,
                     "itemSelectMode": 0,
                     "items": [
                         {
@@ -599,13 +599,7 @@
                             "comsumesSelectMode": 0,
                             "consumesItemsChance": 0,
                             "consumesItems": []
-                        }
-                    ]
-                },
-                {
-                    "intervalSeconds": 7200,
-                    "itemSelectMode": 0,
-                    "items": [
+                        },
                         {
                             "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Narcotic.PrimalItemConsumable_Narcotic",
                             "maxQuantityPerCycle": 0,
@@ -705,11 +699,23 @@
             "chanceToProduce": 1,
             "produces": [
                 {
-                    "intervalSeconds": 100000,
-                    "itemSelectMode": 0,
+                    "intervalSeconds": 172800,
+                    "itemSelectMode": 1,
                     "items": [
                         {
                             "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Thylaco.PrimalItemResource_ApexDrop_Thylaco",
+                            "maxQuantityPerCycle": 0,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0,
+                            "alternateItems": [],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        },
+                        {
+                            "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Pelt.PrimalItemResource_Pelt",
                             "maxQuantityPerCycle": 0,
                             "maxQuantityInTerminal": 0,
                             "quantityPerDino": 1,
